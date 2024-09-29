@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the model
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model1.pkl', 'rb'))
 
 # Streamlit UI
 st.title("Sales Prediction App")
